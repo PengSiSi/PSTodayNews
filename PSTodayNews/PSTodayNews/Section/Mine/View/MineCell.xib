@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MineCell" id="KGk-i7-Jjw" customClass="MineCell" customModule="PSTodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJg-gF-rUu">
+                        <rect key="frame" x="16" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZN-ve-jsM">
+                        <rect key="frame" x="77" y="13" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.45247733160621761" green="0.45247733160621761" blue="0.45247733160621761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right_setup_12x16_" translatesAutoresizingMaskIntoConstraints="NO" id="f1J-9l-pGl">
+                        <rect key="frame" x="300" y="13.5" width="12" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="hDR-qz-9M6"/>
+                            <constraint firstAttribute="height" constant="16" id="nNi-kF-h3T"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9HF-fx-A2k">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.60490204015544036" green="0.60490204015544036" blue="0.60490204015544036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="3qm-F2-0Hc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cJg-gF-rUu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="15d-4F-bvH"/>
+                    <constraint firstItem="9HF-fx-A2k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4bm-sI-6u1"/>
+                    <constraint firstItem="gZN-ve-jsM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Aao-Nu-yJM"/>
+                    <constraint firstItem="gZN-ve-jsM" firstAttribute="leading" secondItem="cJg-gF-rUu" secondAttribute="trailing" constant="19" id="EDx-QM-X1P"/>
+                    <constraint firstItem="f1J-9l-pGl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="W3P-Kj-Nhp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9HF-fx-A2k" secondAttribute="trailing" constant="-8" id="acC-As-2C9"/>
+                    <constraint firstAttribute="bottom" secondItem="9HF-fx-A2k" secondAttribute="bottom" id="g2K-kZ-xcP"/>
+                    <constraint firstItem="cJg-gF-rUu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="kWr-mI-F0d"/>
+                    <constraint firstItem="f1J-9l-pGl" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="mfm-n4-wD4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowImgView" destination="f1J-9l-pGl" id="m6e-VX-iz8"/>
+                <outlet property="lineView" destination="9HF-fx-A2k" id="5cA-2Z-roj"/>
+                <outlet property="tipLabel" destination="cJg-gF-rUu" id="lxh-eI-aSh"/>
+                <outlet property="titleLabel" destination="gZN-ve-jsM" id="Rj4-0c-shT"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_right_setup_12x16_" width="12" height="16"/>
+    </resources>
+</document>
