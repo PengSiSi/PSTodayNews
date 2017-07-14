@@ -12,5 +12,8 @@ pod 'ObjectMapper'
 pod "SVProgressHUD"
 pod "FDFullscreenPopGesture", "~> 1.1"
 pod "MJRefresh"
+pod "Masonry"
+pod "Validator"
+
 
 end

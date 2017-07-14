@@ -9,8 +9,14 @@
 import UIKit
 import SnapKit
 
+typealias AllDeleteClosure = (() -> Void)
+typealias DeleteClosure = (() -> Void)
+
 class CollectBottomDeleteView: UIView {
     
+    var allDeleteClosure: AllDeleteClosure? = nil
+    var deleteClosure: DeleteClosure? = nil
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
@@ -47,6 +53,7 @@ class CollectBottomDeleteView: UIView {
         button.setTitle("一键清空", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         button.setTitleColor(UIColor.gray, for: .normal)
+        button.addTarget(self, action: #selector(allDeleteAction), for: .touchUpInside)
         return button
     }()
     
@@ -56,6 +63,21 @@ class CollectBottomDeleteView: UIView {
         button.isSelected = false
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         button.setTitleColor(UIColor.gray, for: .normal)
+        button.addTarget(self, action: #selector(deleteAction), for: .touchUpInside)
         return button
     }()
+    
+    func allDeleteAction() {
+        
+        if allDeleteClosure != nil {
+            allDeleteClosure!()
+        }
+    }
+    
+    func deleteAction() {
+        
+        if deleteClosure != nil {
+            deleteClosure!()
+        }
+    }
 }

@@ -24,6 +24,8 @@ class CollectSubViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isTranslucent = false
+        self.automaticallyAdjustsScrollViewInsets = false
         setupUI()
         receiveNotification()
     }
@@ -49,6 +51,12 @@ extension CollectSubViewController {
             tableView?.allowsMultipleSelection = true
             tableView?.frame = CGRect(x: 0, y: 0, width: k_ScreenWidth, height: k_ScreenHeight - 44)
             view.addSubview(bottomView)
+            bottomView.allDeleteClosure = {
+                print("一键删除")
+            }
+            bottomView.deleteClosure = {
+                print("删除")
+            }
         } else {
             tableView?.isEditing = false
             tableView?.frame = CGRect(x: 0, y: 0, width: k_ScreenWidth, height: k_ScreenHeight)
@@ -63,9 +71,13 @@ extension CollectSubViewController: UITableViewDataSource, UITableViewDelegate {
     
     func setupUI() {
         
+        let boView = UIView(frame: CGRect(x: 0, y: k_ScreenHeight - 44, width: k_ScreenWidth, height: 44))
+        boView.backgroundColor = UIColor.red
+        view.addSubview(boView)
+        view.bringSubview(toFront: boView)
         view.addSubview(bottomView)
         view.backgroundColor = GlobalColor()
-        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: k_ScreenWidth, height: k_ScreenHeight), style: .plain)
+        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: k_ScreenWidth, height: k_ScreenHeight - 44 - 40 - 64), style: .plain)
         tableView?.delegate = self
         tableView?.dataSource = self
         tableView?.rowHeight = 60

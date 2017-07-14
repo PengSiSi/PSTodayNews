@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0E9119689ED0080B6AE75F30 /* Pods_PSTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71552C9F061E55FB8E15318C /* Pods_PSTodayNews.framework */; };
+		F11273971F1849B60073C896 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11273951F1849B60073C896 /* VideoTableViewCell.swift */; };
+		F11273981F1849B60073C896 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11273961F1849B60073C896 /* VideoTableViewCell.xib */; };
+		F11273AF1F18AB2C0073C896 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11273AE1F18AB2C0073C896 /* TimeLineViewController.swift */; };
+		F11273B11F18ABE80073C896 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11273B01F18ABE80073C896 /* TimeLineCell.swift */; };
+		F11273F61F18C2290073C896 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11273F51F18C2290073C896 /* TabBarViewController.m */; };
 		F13B7A501ED510940074AD1D /* ShareVertialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7A4F1ED510940074AD1D /* ShareVertialButton.swift */; };
 		F13B7A521ED5150F0074AD1D /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7A511ED5150F0074AD1D /* AddFriendViewController.swift */; };
 		F13B7A541ED515A50074AD1D /* TellFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7A531ED515A50074AD1D /* TellFriendViewController.swift */; };
@@ -26,6 +31,8 @@
 		F15D51001ED65C800023EDC3 /* CollectSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D50FF1ED65C800023EDC3 /* CollectSubViewController.swift */; };
 		F15D51021ED66D070023EDC3 /* CollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D51011ED66D070023EDC3 /* CollectCell.swift */; };
 		F15D51041ED6767A0023EDC3 /* CollectBottomDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D51031ED6767A0023EDC3 /* CollectBottomDeleteView.swift */; };
+		F15D51061ED689350023EDC3 /* HomeNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D51051ED689350023EDC3 /* HomeNormalCell.swift */; };
+		F15D51081ED68ADE0023EDC3 /* HomeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D51071ED68ADE0023EDC3 /* HomeBaseCell.swift */; };
 		F1B835071ED2936A0005F9A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B835061ED2936A0005F9A7 /* AppDelegate.swift */; };
 		F1B8350C1ED2936A0005F9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B8350A1ED2936A0005F9A7 /* Main.storyboard */; };
 		F1B8350E1ED2936A0005F9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B8350D1ED2936A0005F9A7 /* Assets.xcassets */; };
@@ -81,6 +88,22 @@
 		F1B835EE1ED2E40F0005F9A7 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B835E51ED2E40F0005F9A7 /* WMProgressView.m */; };
 		F1B835EF1ED2E40F0005F9A7 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B835E71ED2E40F0005F9A7 /* WMScrollView.m */; };
 		F1B835F01ED2E40F0005F9A7 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B835EA1ED2E40F0005F9A7 /* WMPageController.m */; };
+		F1B9F4E01F176EC700A9DE36 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4C51F176EC700A9DE36 /* ASValuePopUpView.m */; };
+		F1B9F4E11F176EC700A9DE36 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4C71F176EC700A9DE36 /* ASValueTrackingSlider.m */; };
+		F1B9F4E21F176EC700A9DE36 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4CA1F176EC700A9DE36 /* UIImageView+ZFCache.m */; };
+		F1B9F4E31F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4CC1F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.m */; };
+		F1B9F4E41F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4CE1F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.m */; };
+		F1B9F4E51F176EC700A9DE36 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4D01F176EC700A9DE36 /* UIView+CustomControlView.m */; };
+		F1B9F4E61F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4D21F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.m */; };
+		F1B9F4E71F176EC700A9DE36 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4D41F176EC700A9DE36 /* MMMaterialDesignSpinner.m */; };
+		F1B9F4E81F176EC700A9DE36 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4D61F176EC700A9DE36 /* ZFBrightnessView.m */; };
+		F1B9F4E91F176EC700A9DE36 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1B9F4D71F176EC700A9DE36 /* ZFPlayer.bundle */; };
+		F1B9F4EA1F176EC700A9DE36 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4DA1F176EC700A9DE36 /* ZFPlayerControlView.m */; };
+		F1B9F4EB1F176EC700A9DE36 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4DD1F176EC700A9DE36 /* ZFPlayerModel.m */; };
+		F1B9F4EC1F176EC700A9DE36 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4DF1F176EC700A9DE36 /* ZFPlayerView.m */; };
+		F1B9F4EE1F17704500A9DE36 /* VideolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4ED1F17704500A9DE36 /* VideolModel.swift */; };
+		F1B9F4F11F1773ED00A9DE36 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1B9F4F01F1773ED00A9DE36 /* videoData.json */; };
+		F1B9F4F31F17755300A9DE36 /* VideoResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9F4F21F17755300A9DE36 /* VideoResolution.swift */; };
 		F1C476C81ED3DB56002AD646 /* VideoTopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C476C71ED3DB56002AD646 /* VideoTopTitle.swift */; };
 		F1C476CA1ED3FFBA002AD646 /* VideoSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C476C91ED3FFBA002AD646 /* VideoSubViewController.swift */; };
 		F1C476CC1ED4036C002AD646 /* VideoSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C476CB1ED4036C002AD646 /* VideoSearchViewController.swift */; };
@@ -114,6 +137,12 @@
 		71552C9F061E55FB8E15318C /* Pods_PSTodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90674C97AC591B613B18E7DA /* Pods-PSTodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTodayNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSTodayNews/Pods-PSTodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		B053D8E5305778D7667CA98C /* Pods-PSTodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTodayNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSTodayNews/Pods-PSTodayNews.debug.xcconfig"; sourceTree = "<group>"; };
+		F11273951F1849B60073C896 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		F11273961F1849B60073C896 /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		F11273AE1F18AB2C0073C896 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		F11273B01F18ABE80073C896 /* TimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
+		F11273F41F18C2290073C896 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F11273F51F18C2290073C896 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		F13B7A4F1ED510940074AD1D /* ShareVertialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareVertialButton.swift; sourceTree = "<group>"; };
 		F13B7A511ED5150F0074AD1D /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		F13B7A531ED515A50074AD1D /* TellFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellFriendViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +161,8 @@
 		F15D50FF1ED65C800023EDC3 /* CollectSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectSubViewController.swift; sourceTree = "<group>"; };
 		F15D51011ED66D070023EDC3 /* CollectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectCell.swift; sourceTree = "<group>"; };
 		F15D51031ED6767A0023EDC3 /* CollectBottomDeleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectBottomDeleteView.swift; sourceTree = "<group>"; };
+		F15D51051ED689350023EDC3 /* HomeNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNormalCell.swift; sourceTree = "<group>"; };
+		F15D51071ED68ADE0023EDC3 /* HomeBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBaseCell.swift; sourceTree = "<group>"; };
 		F1B835031ED2936A0005F9A7 /* PSTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B835061ED2936A0005F9A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1B8350B1ED2936A0005F9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -200,6 +231,36 @@
 		F1B835E81ED2E40F0005F9A7 /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
 		F1B835E91ED2E40F0005F9A7 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
 		F1B835EA1ED2E40F0005F9A7 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		F1B9F4C41F176EC700A9DE36 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		F1B9F4C51F176EC700A9DE36 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		F1B9F4C61F176EC700A9DE36 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		F1B9F4C71F176EC700A9DE36 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		F1B9F4C91F176EC700A9DE36 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		F1B9F4CA1F176EC700A9DE36 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		F1B9F4CB1F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		F1B9F4CC1F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		F1B9F4CD1F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		F1B9F4CE1F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		F1B9F4CF1F176EC700A9DE36 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		F1B9F4D01F176EC700A9DE36 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		F1B9F4D11F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		F1B9F4D21F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		F1B9F4D31F176EC700A9DE36 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		F1B9F4D41F176EC700A9DE36 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		F1B9F4D51F176EC700A9DE36 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		F1B9F4D61F176EC700A9DE36 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		F1B9F4D71F176EC700A9DE36 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		F1B9F4D81F176EC700A9DE36 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		F1B9F4D91F176EC700A9DE36 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		F1B9F4DA1F176EC700A9DE36 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		F1B9F4DB1F176EC700A9DE36 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		F1B9F4DC1F176EC700A9DE36 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		F1B9F4DD1F176EC700A9DE36 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		F1B9F4DE1F176EC700A9DE36 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		F1B9F4DF1F176EC700A9DE36 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		F1B9F4ED1F17704500A9DE36 /* VideolModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideolModel.swift; sourceTree = "<group>"; };
+		F1B9F4F01F1773ED00A9DE36 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		F1B9F4F21F17755300A9DE36 /* VideoResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoResolution.swift; sourceTree = "<group>"; };
 		F1C476C21ED3D260002AD646 /* PSTodayNews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSTodayNews-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1C476C71ED3DB56002AD646 /* VideoTopTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTopTitle.swift; sourceTree = "<group>"; };
 		F1C476C91ED3FFBA002AD646 /* VideoSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSubViewController.swift; sourceTree = "<group>"; };
@@ -446,6 +507,7 @@
 		F1B835531ED293AD0005F9A7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F1B9F4EF1F1773ED00A9DE36 /* Json */,
 				F1B835541ED293AD0005F9A7 /* Global */,
 				F1B835551ED293AD0005F9A7 /* Image */,
 				F1B835561ED293AD0005F9A7 /* Plist */,
@@ -551,6 +613,7 @@
 		F1B835671ED293AD0005F9A7 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				F1B9F4C31F176EC700A9DE36 /* ZFPlayer */,
 				F1B835DC1ED2E40F0005F9A7 /* WMPageController */,
 			);
 			path = Vendors;
@@ -603,6 +666,8 @@
 				F1C476D11ED409B0002AD646 /* MenuScrollView.swift */,
 				F13B7A671ED54C180074AD1D /* ChannelHeaderView.swift */,
 				F13B7A691ED54FB10074AD1D /* ChannelCell.swift */,
+				F15D51051ED689350023EDC3 /* HomeNormalCell.swift */,
+				F15D51071ED68ADE0023EDC3 /* HomeBaseCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -736,6 +801,9 @@
 				F1B835AB1ED2B3430005F9A7 /* NewCareViewController.swift */,
 				F13B7A511ED5150F0074AD1D /* AddFriendViewController.swift */,
 				F13B7A531ED515A50074AD1D /* TellFriendViewController.swift */,
+				F11273AE1F18AB2C0073C896 /* TimeLineViewController.swift */,
+				F11273F41F18C2290073C896 /* TabBarViewController.h */,
+				F11273F51F18C2290073C896 /* TabBarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -752,6 +820,7 @@
 			children = (
 				F13B7A551ED5161D0074AD1D /* AddFriendCell.swift */,
 				F13B7A561ED5161D0074AD1D /* AddFriendCell.xib */,
+				F11273B01F18ABE80073C896 /* TimeLineCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -812,6 +881,8 @@
 			children = (
 				F1C476C71ED3DB56002AD646 /* VideoTopTitle.swift */,
 				F1C476D91ED42501002AD646 /* ShareModel.swift */,
+				F1B9F4ED1F17704500A9DE36 /* VideolModel.swift */,
+				F1B9F4F21F17755300A9DE36 /* VideoResolution.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -823,6 +894,8 @@
 				F1C476CE1ED40992002AD646 /* TitleLabel.swift */,
 				F1C476D31ED41826002AD646 /* VideoCell.swift */,
 				F1C476D41ED41826002AD646 /* VideoCell.xib */,
+				F11273951F1849B60073C896 /* VideoTableViewCell.swift */,
+				F11273961F1849B60073C896 /* VideoTableViewCell.xib */,
 				F1C476D71ED4247A002AD646 /* ShareView.swift */,
 				F13B7A4F1ED510940074AD1D /* ShareVertialButton.swift */,
 			);
@@ -855,6 +928,56 @@
 				F1B835E71ED2E40F0005F9A7 /* WMScrollView.m */,
 			);
 			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		F1B9F4C31F176EC700A9DE36 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9F4C41F176EC700A9DE36 /* ASValuePopUpView.h */,
+				F1B9F4C51F176EC700A9DE36 /* ASValuePopUpView.m */,
+				F1B9F4C61F176EC700A9DE36 /* ASValueTrackingSlider.h */,
+				F1B9F4C71F176EC700A9DE36 /* ASValueTrackingSlider.m */,
+				F1B9F4C81F176EC700A9DE36 /* Category */,
+				F1B9F4D31F176EC700A9DE36 /* MMMaterialDesignSpinner.h */,
+				F1B9F4D41F176EC700A9DE36 /* MMMaterialDesignSpinner.m */,
+				F1B9F4D51F176EC700A9DE36 /* ZFBrightnessView.h */,
+				F1B9F4D61F176EC700A9DE36 /* ZFBrightnessView.m */,
+				F1B9F4D71F176EC700A9DE36 /* ZFPlayer.bundle */,
+				F1B9F4D81F176EC700A9DE36 /* ZFPlayer.h */,
+				F1B9F4D91F176EC700A9DE36 /* ZFPlayerControlView.h */,
+				F1B9F4DA1F176EC700A9DE36 /* ZFPlayerControlView.m */,
+				F1B9F4DB1F176EC700A9DE36 /* ZFPlayerControlViewDelegate.h */,
+				F1B9F4DC1F176EC700A9DE36 /* ZFPlayerModel.h */,
+				F1B9F4DD1F176EC700A9DE36 /* ZFPlayerModel.m */,
+				F1B9F4DE1F176EC700A9DE36 /* ZFPlayerView.h */,
+				F1B9F4DF1F176EC700A9DE36 /* ZFPlayerView.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		F1B9F4C81F176EC700A9DE36 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9F4C91F176EC700A9DE36 /* UIImageView+ZFCache.h */,
+				F1B9F4CA1F176EC700A9DE36 /* UIImageView+ZFCache.m */,
+				F1B9F4CB1F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.h */,
+				F1B9F4CC1F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.m */,
+				F1B9F4CD1F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.h */,
+				F1B9F4CE1F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.m */,
+				F1B9F4CF1F176EC700A9DE36 /* UIView+CustomControlView.h */,
+				F1B9F4D01F176EC700A9DE36 /* UIView+CustomControlView.m */,
+				F1B9F4D11F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.h */,
+				F1B9F4D21F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F1B9F4EF1F1773ED00A9DE36 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9F4F01F1773ED00A9DE36 /* videoData.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 		F2A22558B6FC07AB2A4AE716 /* Frameworks */ = {
@@ -936,7 +1059,7 @@
 				TargetAttributes = {
 					F1B835021ED2936A0005F9A7 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RN6253B2FZ;
+						DevelopmentTeam = 5ALN272SKE;
 						ProvisioningStyle = Automatic;
 					};
 					F1B835161ED2936A0005F9A7 = {
@@ -982,7 +1105,10 @@
 				F13B7A641ED52CCC0074AD1D /* SettingNotificationCell.xib in Resources */,
 				F1B835111ED2936A0005F9A7 /* LaunchScreen.storyboard in Resources */,
 				F1B8350E1ED2936A0005F9A7 /* Assets.xcassets in Resources */,
+				F1B9F4E91F176EC700A9DE36 /* ZFPlayer.bundle in Resources */,
+				F1B9F4F11F1773ED00A9DE36 /* videoData.json in Resources */,
 				F13B7A581ED5161D0074AD1D /* AddFriendCell.xib in Resources */,
+				F11273981F1849B60073C896 /* VideoTableViewCell.xib in Resources */,
 				F1B835B21ED2B5AF0005F9A7 /* YMMineCellPlist.plist in Resources */,
 				F1B835B31ED2B5AF0005F9A7 /* YMSettingPlist.plist in Resources */,
 				F1C476D61ED41826002AD646 /* VideoCell.xib in Resources */,
@@ -1063,6 +1189,8 @@
 			files = (
 				F1B835A41ED2B0910005F9A7 /* MainTabBarController.swift in Sources */,
 				F13B7A5C1ED529620074AD1D /* SettingViewController.swift in Sources */,
+				F1B9F4E21F176EC700A9DE36 /* UIImageView+ZFCache.m in Sources */,
+				F1B9F4EE1F17704500A9DE36 /* VideolModel.swift in Sources */,
 				F13B7A501ED510940074AD1D /* ShareVertialButton.swift in Sources */,
 				F1B835C01ED2BB9D0005F9A7 /* MineHeaderBottomView.swift in Sources */,
 				F1B8357D1ED293AD0005F9A7 /* PageTitleView.swift in Sources */,
@@ -1073,32 +1201,42 @@
 				F1C476D21ED409B0002AD646 /* MenuScrollView.swift in Sources */,
 				F13B7A681ED54C180074AD1D /* ChannelHeaderView.swift in Sources */,
 				F1C476C81ED3DB56002AD646 /* VideoTopTitle.swift in Sources */,
+				F1B9F4EA1F176EC700A9DE36 /* ZFPlayerControlView.m in Sources */,
 				F1B835F01ED2E40F0005F9A7 /* WMPageController.m in Sources */,
+				F11273B11F18ABE80073C896 /* TimeLineCell.swift in Sources */,
 				F1B8356B1ED293AD0005F9A7 /* NSDate+Extension.swift in Sources */,
 				F1B835781ED293AD0005F9A7 /* AlertView.swift in Sources */,
+				F1B9F4E01F176EC700A9DE36 /* ASValuePopUpView.m in Sources */,
 				F1B835C51ED2C62A0005F9A7 /* MineCell.swift in Sources */,
+				F11273971F1849B60073C896 /* VideoTableViewCell.swift in Sources */,
 				F1B835741ED293AD0005F9A7 /* UITableViewCell+Extension.swift in Sources */,
 				F1B835751ED293AD0005F9A7 /* UIView+Extension.swift in Sources */,
 				F1B835EF1ED2E40F0005F9A7 /* WMScrollView.m in Sources */,
 				F1B835BE1ED2B9B90005F9A7 /* MineHeaderIconButton.swift in Sources */,
+				F1B9F4E31F176EC700A9DE36 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				F1B835EE1ED2E40F0005F9A7 /* WMProgressView.m in Sources */,
 				F15D51041ED6767A0023EDC3 /* CollectBottomDeleteView.swift in Sources */,
 				F1B8356C1ED293AD0005F9A7 /* String+Extension.swift in Sources */,
 				F1C476CA1ED3FFBA002AD646 /* VideoSubViewController.swift in Sources */,
+				F1B9F4E81F176EC700A9DE36 /* ZFBrightnessView.m in Sources */,
 				F1B835771ED293AD0005F9A7 /* UtilsMacro.swift in Sources */,
 				F13B7A631ED52CCC0074AD1D /* SettingNotificationCell.swift in Sources */,
+				F1B9F4E11F176EC700A9DE36 /* ASValueTrackingSlider.m in Sources */,
 				F13B7A6A1ED54FB10074AD1D /* ChannelCell.swift in Sources */,
 				F1B835A61ED2B2B80005F9A7 /* BaseNavigationController.swift in Sources */,
+				F15D51061ED689350023EDC3 /* HomeNormalCell.swift in Sources */,
 				F1B835AA1ED2B3330005F9A7 /* VideoViewController.swift in Sources */,
 				F1C476DA1ED42501002AD646 /* ShareModel.swift in Sources */,
 				F1B835EB1ED2E40F0005F9A7 /* WMFooldView.m in Sources */,
 				F1C476D81ED4247A002AD646 /* ShareView.swift in Sources */,
+				F15D51081ED68ADE0023EDC3 /* HomeBaseCell.swift in Sources */,
 				F13B7A521ED5150F0074AD1D /* AddFriendViewController.swift in Sources */,
 				F13B7A571ED5161D0074AD1D /* AddFriendCell.swift in Sources */,
 				F1B835BA1ED2B75F0005F9A7 /* MineHeaderView.swift in Sources */,
 				F1B835721ED293AD0005F9A7 /* UIImageView+Extension.swift in Sources */,
 				F1B835A21ED2B04B0005F9A7 /* IntroduceViewController.swift in Sources */,
 				F1B835841ED2AD260005F9A7 /* Const.swift in Sources */,
+				F1B9F4E51F176EC700A9DE36 /* UIView+CustomControlView.m in Sources */,
 				F1B835761ED293AD0005F9A7 /* UIView+Frame.swift in Sources */,
 				F1B8356D1ED293AD0005F9A7 /* UIApplication+Extension.swift in Sources */,
 				F1B835711ED293AD0005F9A7 /* UIImage+Extension.swift in Sources */,
@@ -1111,26 +1249,34 @@
 				F1C476D01ED40992002AD646 /* TitleLabel.swift in Sources */,
 				F1B8357C1ED293AD0005F9A7 /* PageContentView.swift in Sources */,
 				F1B835B81ED2B62D0005F9A7 /* VerticalButton.swift in Sources */,
+				F11273AF1F18AB2C0073C896 /* TimeLineViewController.swift in Sources */,
 				F1B835681ED293AD0005F9A7 /* BaseViewController.swift in Sources */,
 				F1B835731ED293AD0005F9A7 /* UITableView+Extension.swift in Sources */,
 				F1B835BC1ED2B77D0005F9A7 /* MineNoLoginHeaderView.swift in Sources */,
 				F1B835791ED293AD0005F9A7 /* AppInfoTool.swift in Sources */,
 				F1B835691ED293AD0005F9A7 /* Array+Extension.swift in Sources */,
 				F1B8356E1ED293AD0005F9A7 /* UIBarButtonItem+Extension.swift in Sources */,
+				F1B9F4EC1F176EC700A9DE36 /* ZFPlayerView.m in Sources */,
+				F11273F61F18C2290073C896 /* TabBarViewController.m in Sources */,
 				F1B8356A1ED293AD0005F9A7 /* Dictionary+Extension.swift in Sources */,
 				F1B835AE1ED2B3520005F9A7 /* MineViewController.swift in Sources */,
 				F1B835ED1ED2E40F0005F9A7 /* WMMenuView.m in Sources */,
 				F13B7A541ED515A50074AD1D /* TellFriendViewController.swift in Sources */,
 				F1C476CF1ED40992002AD646 /* MenuTitleView.swift in Sources */,
 				F15D51001ED65C800023EDC3 /* CollectSubViewController.swift in Sources */,
+				F1B9F4F31F17755300A9DE36 /* VideoResolution.swift in Sources */,
 				F1B8357E1ED293AD0005F9A7 /* RequestFailedView.swift in Sources */,
+				F1B9F4E71F176EC700A9DE36 /* MMMaterialDesignSpinner.m in Sources */,
 				F13B7A5F1ED52CAF0074AD1D /* SettingTableViewCell.swift in Sources */,
 				F1B8357A1ED293AD0005F9A7 /* CommonTool.swift in Sources */,
 				F13B7A5A1ED5218C0074AD1D /* AddCategoryViewController.swift in Sources */,
 				F1B8356F1ED293AD0005F9A7 /* UIColor+Color.swift in Sources */,
 				F1B8357B1ED293AD0005F9A7 /* HTTPTool.swift in Sources */,
 				F15D51021ED66D070023EDC3 /* CollectCell.swift in Sources */,
+				F1B9F4E41F176EC700A9DE36 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				F1B9F4EB1F176EC700A9DE36 /* ZFPlayerModel.m in Sources */,
 				F1C476CC1ED4036C002AD646 /* VideoSearchViewController.swift in Sources */,
+				F1B9F4E61F176EC700A9DE36 /* UIViewController+ZFPlayerRotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1284,7 +1430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RN6253B2FZ;
+				DEVELOPMENT_TEAM = 5ALN272SKE;
 				INFOPLIST_FILE = PSTodayNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.PSTodayNews;
@@ -1301,7 +1447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RN6253B2FZ;
+				DEVELOPMENT_TEAM = 5ALN272SKE;
 				INFOPLIST_FILE = PSTodayNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.PSTodayNews;

@@ -10,5 +10,7 @@
 #define PSTodayNews_Bridging_Header_h
 
 #import "WMPageController.h"
+#import "ZFPlayerControlView.h"
+#import "TabBarViewController.h"
 
 #endif /* PSTodayNews_Bridging_Header_h */
